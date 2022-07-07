@@ -1,0 +1,29 @@
+package co.grandcircus.PizzaLab;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HomeController {
+	@RequestMapping("/")
+	public String showIndex() {
+		return "index";
+	}
+	@RequestMapping("/specialty")
+	public String showSpecialty(@RequestParam String name, @RequestParam String price) {
+		return "specialty";
+	}
+	@RequestMapping("/kingdom")
+	public String showKingdom() {
+		return "kingdom";
+	}
+	@RequestMapping("/fishboy")
+	public String showFishboy() {
+		return "fishboy";
+	}
+	@RequestMapping("/sandwich")
+	public String showSandwich() {
+		return "sandwich";
+	}
+
+}

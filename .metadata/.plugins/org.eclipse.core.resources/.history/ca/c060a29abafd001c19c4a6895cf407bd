@@ -1,0 +1,36 @@
+body {
+	background-color: wheat;
+}
+
+.header{
+	padding: 60px;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+	font-size: 30px;
+}
+
+.button{
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+}
+.button:hover{
+	background-color: white;
+	color: black;
+}
+.specialty{
+	text-align: center;
+	background-color: brown;
+	color: antiquewhite;
+	font-weight: 500;
+	font-family: Arial, Helvetica;
+	border-radius: 50px;
+}

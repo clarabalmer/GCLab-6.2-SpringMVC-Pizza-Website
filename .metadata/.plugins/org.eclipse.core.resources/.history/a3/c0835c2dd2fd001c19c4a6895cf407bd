@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pizza Madlibs</title>
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+	<div class=header>
+		<h1>enjoy your fresh madlib</h1>
+	</div>
+	<div>
+		<p>Once upon a time, Clara waited until the night before her
+		 homework was due to start it.
+		She knew it would be a lot of work, but she had 
+		important projects to work on over the weekend.
+		She gathered her water and oreos, put on a lofi hip hop playlist,
+		and started work on her pizza website. Just when she started to 
+		understand Spring MVC, she fell asleep at her computer. In her dreams
+		she ran a pizza restaurant with a sassy name. She served specialty pizzas
+		with fish on them, pizza in the shape of a sandwich, and
+		pizza for kings. Everyone loved her pizza and came from miles around to 
+		see if it was really as good as it looked on her website. 
+		When she woke up, she excitedly turned in the website and waited for her
+		inevitable A+. 
+		
+	</div>
+<a href="/" class=button>home af</a>
+</body>
+</html>
