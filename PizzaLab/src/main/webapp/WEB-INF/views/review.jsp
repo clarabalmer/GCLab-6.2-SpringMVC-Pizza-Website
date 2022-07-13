@@ -14,6 +14,8 @@
 		<h1>do you like us?</h1>
 		
 	</div>
+	<p>all fields required. sorry</p>
+	<p>make sure your comment is long enough</p>
 	<form action="review" method="POST">
 		Name: <input name="name" type="text"/>
 		Comment: <input name="comment" type="text"/>

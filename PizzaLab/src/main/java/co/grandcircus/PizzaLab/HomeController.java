@@ -72,7 +72,12 @@ public class HomeController {
 		model.addAttribute("name", name);
 		model.addAttribute("comment", comment);
 		model.addAttribute("rating", rating);
-		return "displayReview";
+		if (name.equals("") || comment.length() < 5) {
+			return "review";
+		} else {
+			return "displayReview";
+		}
+		
 	}
 	@RequestMapping("/madlibs")
 	public String showMadlibs() {
